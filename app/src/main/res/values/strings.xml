@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Zodiac Affinity</string>
+
+    <!-- Main Activity Strings -->
+    <string name="select_your_sign">Select Your Zodiac Sign</string>
+    <string name="select_partner_sign">Select Partners Zodiac Sign</string>
+    <string name="check_compatibility">Check Compatibility</string>
+
+    <!-- Compatibility Result Activity Strings -->
+    <string name="compatibility_score_label">Compatibility Score: </string>
+    <string name="share">Share</string>
+    <string name="share_via">Share via</string>
+    <string name="default_compatibility_insights">You and your partner have a unique dynamic that can be very rewarding.</string>
+    <string name="ZodiacHistoryTitle">The history of the zodiac dates back thousands of years and has its origins in ancient civilizations, particularly in Mesopotamia (modern-day Iraq) and Egypt. Here’s a brief overview of how the zodiac developed:</string>
+
+    <string-array name="zodiac_signs">
+        <item>Aries</item>
+        <item>Taurus</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Scorpio</item>
+        <item>Sagittarius</item>
+        <item>Capricorn</item>
+        <item>Aquarius</item>
+        <item>Pisces</item>
+    </string-array>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/CheckNav"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/check_nav" />
+
+    <!-- AutoCompleteTextView for User's Zodiac Sign -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextViewUserSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CheckNav"
+        android:layout_margin="50dp"
+        android:hint="Select Your Zodiac Sign"
+        android:inputType="none" />
+
+    <!-- AutoCompleteTextView for Partner's Zodiac Sign -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextViewPartnerSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autoCompleteTextViewUserSign"
+        android:layout_margin="50dp"
+        android:hint="Select Partner's Zodiac Sign"
+        android:inputType="none" />
+
+    <!-- Button to Check Compatibility -->
+    <TextView
+        android:id="@+id/btnCheckCompatibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autoCompleteTextViewPartnerSign"
+        android:layout_centerHorizontal="true"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:fontFamily="@font/boorsok"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2" />
+    <TextView
+        android:id="@+id/errorMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select both your sign and your partner sign"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@id/btnCheckCompatibility"
+        android:textSize="10sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/boorsok"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
